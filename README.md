@@ -1,10 +1,14 @@
 # ecommerce--restful-api
 
-Main Dependencies:
+## Main Dependencies:
 
-Spring boot security to implement JWT Authentication using asymmetric JWT signatures
-Spring Data JPA to model data classes and their relationships
-PostgreSQL as the database management system
+- Spring boot security to implement JWT Authentication using asymmetric JWT signatures
+
+- Spring Data JPA to model data classes and their relationships
+
+- PostgreSQL as the database management system
+
+## Overview
 
 This application represents the backend of an e-commerce site where people can trade their used or new tech devices
 
