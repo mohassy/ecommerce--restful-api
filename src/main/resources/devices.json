@@ -1,0 +1,536 @@
+[
+  {
+    "title": "Dell XPS 13",
+    "img": "https://m.media-amazon.com/images/I/81aI36Tc0XS._AC_SY450_.jpg",
+    "type": "Laptop",
+    "price": 999.0,
+    "specs": [
+      "11th Gen Intel Core i3, i5, or i7 processor",
+      "13.4-inch FHD+ or UHD+ display",
+      "Up to 2TB PCIe SSD and 32GB RAM"
+    ]
+  },
+  {
+    "title": "MacBook Pro",
+    "img": "https://m.media-amazon.com/images/I/61cEe0sO6JL._AC_SY355_.jpg",
+    "type": "Laptop",
+    "price": 938.99,
+    "specs": [
+      "M1 Pro or M1 Max chip with up to 10-core CPU and 32-core GPU",
+      "14-inch or 16-inch Retina display with ProMotion technology",
+      "Up to 8TB SSD and 64GB unified memory"
+    ]
+  },
+  {
+    "title": "HP Envy 13",
+    "img": "https://m.media-amazon.com/images/I/71htgR-wBQL._AC_SX355_.jpg",
+    "type": "Laptop",
+    "price": 569.0,
+    "specs": [
+      "11th Gen Intel Core i5 or i7 processor",
+      "13.3-inch FHD or 4K UHD display",
+      "Up to 2TB PCIe SSD and 16GB RAM"
+    ]
+  },
+  {
+    "title": "LG UltraGear 27GN950-B",
+    "img": "https://m.media-amazon.com/images/I/914oVQ1DS1L._AC_SY450_.jpg",
+    "type": "Monitor",
+    "price": 699.99,
+    "specs": [
+      "27-inch 4K UHD Nano IPS display with 144Hz refresh rate",
+      "1ms response time and G-Sync compatible",
+      "HDR600, DCI-P3 98%, and VESA DisplayHDR 600 certification"
+    ]
+  },
+  {
+    "title": "Asus ROG Swift PG279QZ",
+    "img": "https://m.media-amazon.com/images/I/81Ti9ezZJoL._AC_SY450_.jpg",
+    "type": "Monitor",
+    "price": 713.52,
+    "specs": [
+      "27-inch QHD IPS display with 165Hz refresh rate",
+      "1ms response time and G-Sync compatible",
+      "ASUS Eye Care technology and GameVisual modes"
+    ]
+  },
+
+  {
+    "title": "Sony PlayStation 5",
+    "img": "https://m.media-amazon.com/images/I/51051FiD9UL._SX522_.jpg",
+    "type": "Game Console",
+    "price": 499.0,
+    "specs": [
+      "AMD Zen 2-based CPU with 8 cores and 16 threads",
+      "AMD RDNA 2-based GPU with 10.28 teraflops and ray tracing support",
+      "825GB SSD and 16GB GDDR6 memory"
+    ]
+  },
+  {
+    "title": "Xbox Series X",
+    "img": "https://m.media-amazon.com/images/I/51ojzJk77qL._SX342_.jpg",
+    "type": "Game Console",
+    "price": 499.99,
+    "specs": [
+      "AMD Zen 2-based CPU with 8 cores and 16 threads",
+      "AMD RDNA 2-based GPU with 12 teraflops and ray tracing support",
+      "1TB NVMe SSD and 16GB GDDR6 memory"
+    ]
+  },
+  {
+    "title": "Samsung Galaxy S21",
+    "img": "https://m.media-amazon.com/images/I/61jYjeuNUnL._AC_SX425_.jpg",
+    "type": "Phone",
+    "price": 247.0,
+    "specs": [
+      "Exynos 2100 or Snapdragon 888 processor",
+      "6.2-inch Dynamic AMOLED 2X display with 120Hz refresh rate",
+      "Up to 256GB storage and 8GB RAM"
+    ]
+  },
+  {
+    "title": "iPhone 13 Pro Max",
+    "img": "https://m.media-amazon.com/images/I/61IJBsHm97L._AC_SX425_.jpg",
+    "type": "Phone",
+    "price": 940.0,
+    "specs": [
+      "A15 Bionic chip with 6-core CPU and 5-core GPU",
+      "6.7-inch Super Retina XDR display with ProMotion technology",
+      "Up to 1TB storage and 6GB RAM"
+    ]
+  },
+  {
+    "title": "iPad Pro",
+    "img": "https://m.media-amazon.com/images/I/81hAx31maUL._AC_SX342_.jpg",
+    "type": "Tablet",
+    "price": 1289.0,
+    "specs": [
+      "M1 chip with 8-core CPU and 8-core GPU",
+      "11-inch or 12.9-inch Liquid Retina XDR display with ProMotion technology",
+      "Up to 2TB storage and 16GB RAM"
+    ]
+  },
+
+  {
+    "title": "Samsung Galaxy Tab S7+",
+    "img": "https://m.media-amazon.com/images/I/818zWwTXYsL._AC_SX355_.jpg",
+    "type": "Tablet",
+    "price": 699.99,
+    "specs": [
+      "Qualcomm Snapdragon 865+ processor",
+      "12.4-inch Super AMOLED display with 120Hz refresh rate",
+      "Up to 1TB storage and 8GB RAM"
+    ]
+  },
+  {
+    "title": "Bose QuietComfort 35 II",
+    "img": "https://m.media-amazon.com/images/I/81+jNVOUsJL._AC_SY355_.jpg",
+    "type": "Headphones",
+    "price": 298.89,
+    "specs": [
+      "Noise-cancellation technology with three levels of intensity",
+      "Bluetooth and NFC pairing with voice prompts",
+      "Up to 20 hours of battery life and 2.5 hours charging time"
+    ]
+  },
+  {
+    "title": "Sony WH-1000XM4",
+    "img": "https://m.media-amazon.com/images/I/51a19e9fVKL._AC_SY355_.jpg",
+    "type": "Headphones",
+    "price": 149.0,
+    "specs": [
+      "Noise-cancellation technology with two noise sensors and HD noise-cancelling processor QN1",
+      "Bluetooth and NFC pairing with voice assistant access",
+      "Up to 30 hours of battery life and 3 hours charging time"
+    ]
+  },
+  {
+    "title": "LG OLED CX",
+    "img": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/161/16157/16157498.jpg",
+    "type": "TV",
+    "price": 1599.99,
+    "specs": [
+      "55-inch or 65-inch OLED display with 4K resolution",
+      "Dolby Vision IQ and Dolby Atmos technology",
+      "WebOS and ThinQ AI with hands-free voice control"
+    ]
+  },
+  {
+    "title": "Sony Bravia X900H",
+    "img": "https://m.media-amazon.com/images/I/91j8ZfpDC1L._AC_SX450_.jpg",
+    "type": "TV",
+    "price": 1899.99,
+    "specs": [
+      "55-inch, 65-inch, or 75-inch 4K HDR LED display",
+      "Full array local dimming and X-tended Dynamic Range PRO",
+      "Android TV with Google Assistant and Alexa compatibility"
+    ]
+  },
+  {
+    "title": "Dell XPS 15",
+    "img": "https://m.media-amazon.com/images/I/61ZKSXt0cAS._AC_SY450_.jpg",
+    "type": "Laptop",
+    "price": 1449.95,
+    "specs": [
+      "11th Gen Intel Core processors with up to 4 cores and 8 threads",
+      "15.4-inch FHD+ or 4K UHD+ display with up to 500 nits brightness",
+      "Up to 2TB PCIe NVMe SSD and 16GB LPDDR4x RAM"
+    ]
+  },
+  {
+    "title": "Asus ROG Zephyrus G14",
+    "img": "https://m.media-amazon.com/images/I/8108MHPUYyL._AC_SX425_.jpg",
+    "type": "Laptop",
+    "price": 1379.5,
+    "specs": [
+      "AMD Ryzen 9 5900HS processor with 8 cores and 16 threads",
+      "14-inch FHD or WQHD IPS-level display with 120Hz refresh rate",
+      "Up to 1TB PCIe NVMe SSD and 32GB DDR4 RAM"
+    ]
+  },
+  {
+    "title": "Acer Predator X27",
+    "img": "https://m.media-amazon.com/images/I/81eUaj5y1wL._AC_SX450_.jpg",
+    "type": "Monitor",
+    "price": 599.99,
+    "specs": [
+      "27-inch 4K UHD IPS display with 144Hz refresh rate and G-Sync Ultimate",
+      "HDR1000 and Quantum Dot technology",
+      "1ms response time and adjustable stand"
+    ]
+  },
+  {
+    "title": "LG 27UK850-W",
+    "img": "https://m.media-amazon.com/images/I/718ICn8vZTL._AC_SY450_.jpg",
+    "type": "Monitor",
+    "price": 239.99,
+    "specs": [
+      "27-inch 4K UHD IPS display with 60Hz refresh rate and FreeSync",
+      "HDR10 and USB-C connectivity with 60W power delivery",
+      "sRGB 99% color gamut and adjustable stand"
+    ]
+  },
+  {
+    "title": "Logitech MX Master 3",
+    "img": "https://m.media-amazon.com/images/I/71zp7CMBb0L._AC_SL1500_.jpg",
+    "type": "Mouse",
+    "price": 94.99,
+    "specs": [
+      "Darkfield 4000 DPI sensor with precision wheel and horizontal scroll",
+      "USB-C quick charging and up to 70 days battery life",
+      "Customizable buttons and ergonomic design"
+    ]
+  },
+  {
+    "title": "Sony WH-CH720N",
+    "img": "https://m.media-amazon.com/images/I/51lmG1RJEAL._AC_SX355_.jpg",
+    "type": "Headphones",
+    "price": 289.95,
+    "specs": [
+      "Industry-leading noise cancellation with Dual Noise Sensor technology",
+      "Up to 30 hours of battery life and quick charging",
+      "Bluetooth 5.0 and support for LDAC, aptX HD, and AAC codecs"
+    ]
+  },
+  {
+    "title": "Bose QuietComfort Earbuds",
+    "img": "https://m.media-amazon.com/images/I/610DtEDib2L._AC_SY355_.jpg",
+    "type": "Headphones",
+    "price": 172.99,
+    "specs": [
+      "Active noise cancellation and Bose StayHear Max tips for secure fit",
+      "Up to 6 hours of battery life per charge and IPX4 water resistance",
+      "Bluetooth 5.1 and support for SBC and AAC codecs"
+    ]
+  },
+  {
+    "title": "Nintendo Switch",
+    "img": "https://m.media-amazon.com/images/I/714vszIBgpL._SX522_.jpg",
+    "type": "Game Console",
+    "price": 351.0,
+    "specs": [
+      "Hybrid console with 6.2-inch 720p touchscreen and detachable Joy-Con controllers",
+      "Up to 9 hours of battery life and support for up to 8 players",
+      "Docking station for TV mode and compatibility with many popular games"
+    ]
+  },
+  {
+    "title": "Samsung Galaxy S21",
+    "img": "https://m.media-amazon.com/images/I/716nc1e8OdL._AC_SY355_.jpg",
+    "type": "Phone",
+    "price": 759.99,
+    "specs": [
+      "6.2-inch Dynamic AMOLED 2X display with 120Hz refresh rate and HDR10+",
+      "Exynos 2100 or Snapdragon 888 processor with 5G connectivity",
+      "Up to 256GB storage and 8GB RAM, 4000mAh battery with fast charging"
+    ]
+  },
+
+  {
+    "title": "Apple iPad Air",
+    "img": "https://m.media-amazon.com/images/I/61XZQXFQeVL._AC_SX342_.jpg",
+    "type": "Tablet",
+    "price": 514.28,
+    "specs": [
+      "10.9-inch Liquid Retina display with True Tone and P3 wide color",
+      "A14 Bionic chip with Neural Engine and up to 256GB storage",
+      "Touch ID and Apple Pencil (2nd generation) support"
+    ]
+  },
+  {
+    "title": "Samsung Galaxy Tab S7+",
+    "img": "https://m.media-amazon.com/images/I/818zWwTXYsL.__AC_SY300_SX300_QL70_FMwebp_.jpg",
+    "type": "Tablet",
+    "price": 699.99,
+    "specs": [
+      "12.4-inch Super AMOLED display with 120Hz refresh rate and HDR10+",
+      "Qualcomm Snapdragon 865+ processor and up to 1TB storage",
+      "S Pen included and support for DeX mode"
+    ]
+  },
+  {
+    "title": "Dell XPS 17",
+    "img": "https://m.media-amazon.com/images/I/61clxFOZnCL._AC_SX450_.jpg",
+    "type": "Laptop",
+    "price": 2899.99,
+    "specs": [
+      "17-inch FHD+ or 4K UHD+ display with slim bezels and 16:10 aspect ratio",
+      "Intel Core i7 or i9 processor and up to 2TB SSD storage",
+      "11th Gen Intel Iris Xe Graphics and up to 16GB RAM"
+    ]
+  },
+  {
+    "title": "HP Spectre x360",
+    "img": "https://m.media-amazon.com/images/I/51QJ2AFo-iL._AC_SX450_.jpg",
+    "type": "Laptop",
+    "price": 769.0,
+    "specs": [
+      "13.3-inch FHD or 4K UHD display with optional AMOLED and touch support",
+      "11th Gen Intel Core processors and up to 2TB SSD storage",
+      "Intel Iris Xe Graphics and up to 16GB RAM, up to 22 hours of battery life"
+    ]
+  },
+  {
+    "title": "LG 27UK850-W",
+    "img": "https://m.media-amazon.com/images/I/81-OOAD0l7L.__AC_SX300_SY300_QL70_FMwebp_.jpg",
+    "type": "Monitor",
+    "price": 127.99,
+    "specs": [
+      "27-inch 4K UHD IPS display with HDR10 and DCI-P3 99% color gamut",
+      "USB-C with 60W Power Delivery and AMD FreeSync technology",
+      "Adjustable stand with pivot, tilt, and height adjustments"
+    ]
+  },
+
+  {
+    "title": "Alienware Aurora Ryzen Edition R10",
+    "img": "https://m.media-amazon.com/images/I/6102kY3HGvS._AC_SY450_.jpg",
+    "type": "Desktop Computer",
+    "price": 2049.0,
+    "specs": [
+      "AMD Ryzen 7 5800X processor and NVIDIA GeForce RTX 3070 graphics card",
+      "Up to 128GB DDR4 RAM and 2TB PCIe SSD storage",
+      "Liquid cooling and optional 1000W power supply"
+    ]
+  },
+  {
+    "title": "HP Pavilion Gaming Desktop TG01-1170m",
+    "img": "https://m.media-amazon.com/images/I/81+flKcukxL._AC_SX450_.jpg",
+    "type": "Desktop Computer",
+    "price": 699.0,
+    "specs": [
+      "AMD Ryzen 5 5600G processor and NVIDIA GeForce GTX 1650 graphics card",
+      "Up to 16GB DDR4 RAM and 512GB PCIe NVMe SSD storage",
+      "Wi-Fi 5, Bluetooth 5.0, and Realtek ALC3259-CG audio"
+    ]
+  },
+  {
+    "title": "Dell XPS Desktop Special Edition",
+    "img": "https://m.media-amazon.com/images/I/71+okemQmBL._AC_SY450_.jpg",
+    "type": "Desktop Computer",
+    "price": 1269.64,
+    "specs": [
+      "Intel Core i7-11700K processor and NVIDIA GeForce RTX 3070 graphics card",
+      "Up to 64GB DDR4 RAM and 2TB M.2 PCIe NVMe SSD storage",
+      "Wi-Fi 6, Bluetooth 5.1, and Killer AX1650 wireless"
+    ]
+  },
+  {
+    "title": "Dell 2022 XPS 8940",
+    "img": "https://m.media-amazon.com/images/I/81nkZh9frmL._AC_SY355_.jpg",
+    "type": "Desktop Computer",
+    "price": 2299.99,
+    "specs": [
+      "Intel Core i7-11700KF processor and NVIDIA GeForce RTX 3080 graphics card",
+      "Up to 32GB DDR4 RAM and 1TB NVMe SSD storage",
+      "Liquid cooling, 850W power supply"
+    ]
+  },
+  {
+    "title": "ASUS ROG Strix GA15DK",
+    "img": "https://m.media-amazon.com/images/I/61n0400fkvL._AC_SY355_.jpg",
+    "type": "Desktop Computer",
+    "price": 1429.0,
+    "specs": [
+      "AMD Ryzen 7 5800X processor and NVIDIA GeForce RTX 3060 graphics card",
+      "Up to 32GB DDR4 RAM and 1TB PCIe NVMe M.2 SSD storage",
+      "Wi-Fi 6, Bluetooth 5.1, and Aura Sync RGB lighting"
+    ]
+  },
+
+  {
+    "title": "HP OMEN 30L Desktop",
+    "img": "https://m.media-amazon.com/images/I/71zuO4IBb4L._AC_SY450_.jpg",
+    "type": "Desktop Computer",
+    "price": 2127.7,
+    "specs": [
+      "Intel Core i9-11900K processor and NVIDIA GeForce RTX 3080 graphics card",
+      "Up to 32GB DDR4 RAM and 1TB PCIe NVMe M.2 SSD storage",
+      "Wi-Fi 6, Bluetooth 5.2, and OMEN RGB lighting"
+    ]
+  },
+  {
+    "title": "ASUS ProArt PA90 Mini PC Workstation",
+    "img": "https://m.media-amazon.com/images/I/71UgUn7fxCL._AC_SY450_.jpg",
+    "type": "Desktop Computer",
+    "price": 599.99,
+    "specs": [
+      "Intel Core i9-9900K processor and NVIDIA Quadro P4000 graphics card",
+      "Up to 64GB DDR4 RAM and 2TB PCIe NVMe SSD storage",
+      "Thunderbolt 3, Wi-Fi 6, and TPM 2.0 security"
+    ]
+  },
+  {
+    "title": "Acer Nitro 50 N50-610 Desktop",
+    "img": "https://m.media-amazon.com/images/I/61R+mSzZeTL._AC_SX466_.jpg",
+    "type": "Desktop Computer",
+    "price": 799.99,
+    "specs": [
+      "Intel Core i5-10400F processor and NVIDIA GeForce GTX 1650 graphics card",
+      "Up to 64GB DDR4 RAM and 512GB PCIe NVMe SSD storage",
+      "Wi-Fi 6, Bluetooth 5.1, and Acer NitroSense software"
+    ]
+  },
+  {
+    "title": "MSI MPG Trident 3 10SI-002US Small Form Factor Desktop",
+    "img": "https://m.media-amazon.com/images/I/61FzIEPgYwL._AC_SY450_.jpg",
+    "type": "Desktop Computer",
+    "price": 1441.5,
+    "specs": [
+      "Intel Core i5-10400F processor and NVIDIA GeForce GTX 1660 Super graphics card",
+      "Up to 32GB DDR4 RAM and 512GB NVMe SSD storage",
+      "Wi-Fi 6, Bluetooth 5.1, and Mystic Light RGB lighting"
+    ]
+  },
+  {
+    "title": "Lenovo Legion Tower 5i",
+    "img": "https://m.media-amazon.com/images/I/611v2ECg-KL._AC_SY450_.jpg",
+    "type": "Desktop Computer",
+    "price": 3999.0,
+    "specs": [
+      "Intel Core i7-11700KF processor and NVIDIA GeForce RTX 3060 Ti graphics card",
+      "Up to 32GB DDR4 RAM and 1TB PCIe SSD storage",
+      "Wi-Fi 6, Bluetooth 5.1, and RGB lighting"
+    ]
+  },
+
+  {
+    "title": "LG OLED77CXPUA CX 77-inch 4K Smart OLED TV",
+    "img": "https://m.media-amazon.com/images/I/A1rzsiqAUUL._AC_SL1500_.jpg",
+    "type": "TV",
+    "price": 3899.99,
+    "specs": [
+      "77-inch OLED display with 4K resolution and HDR10, HLG, and Dolby Vision HDR support",
+      "LG ThinQ AI with Google Assistant, Amazon Alexa, and Apple AirPlay 2 support",
+      "120Hz refresh rate, HDMI 2.1, and NVIDIA G-SYNC and AMD FreeSync compatibility"
+    ]
+  },
+  {
+    "title": "Samsung QN85A QLED 85-inch 4K Smart TV",
+    "img": "https://m.media-amazon.com/images/I/611mJsM+myL._AC_SX425_.jpg",
+    "type": "TV",
+    "price": 4699.95,
+    "specs": [
+      "85-inch QLED display with 4K resolution and Quantum HDR 16X support",
+      "Samsung Tizen OS with voice control, Google Assistant, and Amazon Alexa support",
+      "120Hz refresh rate, HDMI 2.1, and Adaptive Sound+ and Object Tracking Sound+ technology"
+    ]
+  },
+  {
+    "title": "Sony X950H 75-inch 4K Ultra HD Smart LED TV",
+    "img": "https://m.media-amazon.com/images/I/81zf+9mtzdL._AC_SX450_.jpg",
+    "type": "TV",
+    "price": 999.99,
+    "specs": [
+      "75-inch LED display with 4K resolution and HDR10, HLG, and Dolby Vision HDR support",
+      "Android TV with Google Assistant and Amazon Alexa support",
+      "120Hz refresh rate, X-Motion Clarity technology, and Acoustic Multi-Audio technology"
+    ]
+  },
+  {
+    "title": "Vizio M-Series Quantum M65Q8-H1 65-inch 4K Smart TV",
+    "img": "https://m.media-amazon.com/images/I/81l7F85GBYL._AC_SY355_.jpg",
+    "type": "TV",
+    "price": 1299.95,
+    "specs": [
+      "65-inch QLED display with 4K resolution and Quantum Color technology",
+      "Vizio SmartCast with voice control and Apple AirPlay 2 and Chromecast built-in support",
+      "120Hz refresh rate, HDMI 2.1, and Vizio ProGaming Engine optimization"
+    ]
+  },
+  {
+    "title": "LG C1 Series OLED65C1PUB 45-inch 4K Smart OLED TV",
+    "img": "https://m.media-amazon.com/images/I/51zMRCcxCBL._AC_SY355_.jpg",
+    "type": "TV",
+    "price": 695.95,
+    "specs": [
+      "45-inch OLED display with 4K resolution and HDR10, HLG, and Dolby Vision HDR support",
+      "LG ThinQ AI with Google Assistant, Amazon Alexa, and Apple AirPlay 2 support",
+      "120Hz refresh rate, HDMI 2.1, and NVIDIA G-SYNC and AMD FreeSync compatibility"
+    ]
+  },
+  {
+    "title": "Samsung QN90A Neo QLED 55-inch 4K Smart TV",
+    "img": "https://m.media-amazon.com/images/I/816z9yHvl4L._AC_SX450_.jpg",
+    "type": "TV",
+    "price": 1089.99,
+    "specs": [
+      "55-inch QLED display with 4K resolution and Quantum HDR 32X support",
+      "Samsung Tizen OS with voice control, Google Assistant, and Amazon Alexa support",
+      "120Hz refresh rate, HDMI 2.1, and Object Tracking Sound Pro technology"
+    ]
+  },
+  {
+    "title": "Sony X900H 32-inch 4K Ultra HD Smart LED TV",
+    "img": "https://m.media-amazon.com/images/I/51RLq7+qIoL._AC_SX355_.jpg",
+    "type": "TV",
+    "price": 399.95,
+    "specs": [
+      "32-inch LED display with 4K resolution and HDR10, HLG, and Dolby Vision HDR support",
+      "Android TV with Google Assistant and Amazon Alexa support",
+      "120Hz refresh rate, X-Motion Clarity technology, and Acoustic Multi-Audio technology"
+    ]
+  },
+  {
+    "title": "Vizio OLED OLED65-H1 65-inch 4K Smart TV",
+    "img": "https://m.media-amazon.com/images/I/71vDE8QmfmL._AC_SL1031_.jpg",
+    "type": "TV",
+    "price": 2229.0,
+    "specs": [
+      "65-inch OLED display with 4K resolution and HDR10, HLG, and Dolby Vision HDR support",
+      "Vizio SmartCast with voice control and Apple AirPlay 2 and Chromecast built-in support",
+      "120Hz refresh rate, HDMI 2.1, and Vizio IQ Ultra processor"
+    ]
+  },
+  {
+    "title": "TCL 5-Series S535 43-inch HD Smart TV",
+    "img": "https://m.media-amazon.com/images/I/61+5r8u3-+L._AC_SL1500_.jpg",
+    "type": "TV",
+    "price": 299.99,
+    "specs": [
+      "43-inch QLED display with 1080 resolution and Dolby Vision HDR support",
+      "Roku TV with voice control and Google Assistant and Amazon Alexa support",
+      "120Hz refresh rate, THX Certified Game Mode, and Auto Game Mode"
+    ]
+  }
+]
