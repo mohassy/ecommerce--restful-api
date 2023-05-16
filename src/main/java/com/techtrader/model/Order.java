@@ -8,6 +8,8 @@ import lombok.NoArgsConstructor;
 import org.hibernate.annotations.OnDelete;
 import org.hibernate.annotations.OnDeleteAction;
 
+import java.util.Date;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -23,6 +25,7 @@ public class Order {
     @OnDelete( action = OnDeleteAction.CASCADE)
     private Listing listing;
 
+    private Date dateOrdered;
     private int quantity;
 
 

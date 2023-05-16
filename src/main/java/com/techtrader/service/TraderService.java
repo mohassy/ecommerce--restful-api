@@ -51,4 +51,7 @@ public class TraderService {
     }
 
 
+    public Trader getTrader(String userName) {
+        return traderRepository.findByUsername(userName).orElseThrow();
+    }
 }

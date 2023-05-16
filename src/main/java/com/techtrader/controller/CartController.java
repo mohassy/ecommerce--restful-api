@@ -9,6 +9,7 @@ import java.security.Principal;
 
 @RestController
 @RequestMapping("/api/cart")
+@CrossOrigin(origins = "*") // TODO: 2023-05-07  remove in production
 public class CartController {
     private final CartService cartService;
 

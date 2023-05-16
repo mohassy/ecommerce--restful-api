@@ -11,6 +11,7 @@ import java.util.NoSuchElementException;
 @Service
 public class DeviceService {
     private final DeviceRepository deviceRepository;
+    private final int pageSize = 12;
 
     public DeviceService(DeviceRepository deviceRepository) {
         this.deviceRepository = deviceRepository;
@@ -21,15 +22,19 @@ public class DeviceService {
     }
 
     public List<Device> searchDeviceByPage(int page) {
-        return deviceRepository.findAll(PageRequest.of(page, 10)).toList();
+        return deviceRepository.findAll(PageRequest.of(page, pageSize)).toList();
     }
 
     public List<Device> searchByKeywords(String keyword, int page) {
-        return deviceRepository.findAllByNameContainingOrDeviceTypeContainingOrSpecsContaining(keyword, keyword, keyword, PageRequest.of(page, 10));
+        return deviceRepository.findAllByNameContainingOrDeviceTypeContainingOrSpecsContaining(keyword, keyword, keyword, PageRequest.of(page, pageSize));
     }
 
 
     public List<Device> searchByPriceBetween(int page, double min, double max) {
-        return deviceRepository.findAllByPriceBetweenOrderByPrice(min, max, PageRequest.of(page, 10));
+        return deviceRepository.findAllByPriceBetweenOrderByPrice(min, max, PageRequest.of(page, pageSize));
+    }
+
+    public List<Device> getDevicesByType(String type, int page) {
+        return deviceRepository.findAllByType(type, PageRequest.of(page, pageSize)).orElseThrow();
     }
 }

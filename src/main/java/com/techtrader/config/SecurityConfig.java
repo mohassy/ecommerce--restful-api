@@ -40,8 +40,9 @@ public class SecurityConfig {
     public SecurityFilterChain configure(HttpSecurity http) throws Exception {
         return http
                 .csrf(csrf -> csrf.disable())
+                .cors(cors -> cors.disable()) // TODO: 2023-05-07 take out in production 
                 .authorizeRequests(auth -> auth
-                        .requestMatchers("/api/device/**", "/api/trader/register").permitAll()
+                        .requestMatchers("/api/device/**", "/api/trader/register", "/api/auth/login", "/api/device/**/**").permitAll()
                         .anyRequest().authenticated()
                 )
                 .userDetailsService(jpaUserDetailsService)

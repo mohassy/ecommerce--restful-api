@@ -11,6 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/list")
+@CrossOrigin(origins = "*") // TODO: 2023-05-07  remove in production
 public class ListingController {
 
     private final ListService listService;

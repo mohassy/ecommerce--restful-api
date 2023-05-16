@@ -11,6 +11,7 @@ import java.security.Principal;
 
 @RestController
 @RequestMapping("/api/trader")
+@CrossOrigin(origins = "*") // TODO: 2023-05-07  remove in production
 public class TraderController {
 
     private final TraderService traderService;

@@ -3,15 +3,13 @@ package com.techtrader.controller;
 
 import com.techtrader.model.Device;
 import com.techtrader.service.DeviceService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/api/device")
+@CrossOrigin // TODO: 2023-05-07  remove in production
 public class DeviceController {
 
     private final DeviceService deviceService;
@@ -22,11 +20,16 @@ public class DeviceController {
 
     @GetMapping("/{device_id}")
     public Device getDevice(@PathVariable Long device_id) {
-        return deviceService.getDevice(device_id);
+        Device device = deviceService.getDevice(device_id);
+        return device;
     }
 
-    @GetMapping("page/{page}")
-    public List<Device> getDevicesByPage(@PathVariable int page) {
+    @GetMapping("/type/{type}/{page}")
+    public List<Device> getDevicesByType(@PathVariable String type, @PathVariable int page){
+        return deviceService.getDevicesByType(type, page);
+    }
+    @GetMapping("/page/{page}")
+    public List<Device> getDevicesBy(@PathVariable int page) {
         return deviceService.searchDeviceByPage(page);
     }
 

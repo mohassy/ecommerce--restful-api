@@ -14,6 +14,8 @@ import lombok.NoArgsConstructor;
 import org.hibernate.annotations.OnDelete;
 import org.hibernate.annotations.OnDeleteAction;
 
+import java.util.Date;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -32,6 +34,8 @@ public class Listing {
     @OneToOne
     @OnDelete( action = OnDeleteAction.CASCADE)
     private Device device;
+
+    private Date dateListed;
 
     private ListedStatus listedStatus;
 

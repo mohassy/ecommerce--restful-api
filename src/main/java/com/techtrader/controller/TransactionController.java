@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/transaction")
+@CrossOrigin(origins = "*") // TODO: 2023-05-07  remove in production
 public class TransactionController {
 
     private final TransactionService transactionService;
